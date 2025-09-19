@@ -32,12 +32,7 @@ export default function PagesCard({ pages }: Props) {
     const hasSelectedItems = selectedPages.size > 0;
 
     return (
-        <div
-            className='card md:w-[370px] w-full rounded-[6px] border-[1px] py-[10px] border-border'
-            style={{
-                boxShadow: '0px 8px 15px 0px #1414141F, 0px 0px 4px 0px #1414141A'
-            }}
-        >
+        <div className='card md:w-[370px] w-full rounded-[6px] border-[1px] py-[10px] border-border'>
             <EachPageItem
                 id={'select-all'}
                 label={'All pages'}
